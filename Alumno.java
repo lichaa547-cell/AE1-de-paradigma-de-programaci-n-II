@@ -8,12 +8,12 @@
  * @author Lucas
  */
 public class Alumno {
-   private String nombre;
-   private String apellido;
-   private int dni;
-   private int legajo;
+   private final String nombre;
+   private final String apellido;
+   private final int dni;
+   private final int legajo;
    
-   public Alumno(){
+   public Alumno(String nombre, String apellido, int dni, int legajo){
        this.nombre = nombre;
        this.apellido = apellido;
        this.dni = dni;

@@ -10,10 +10,14 @@
 public class Inscripcion {
     private int inasistencias;
     private final SituacionFinal situacionfinal;
+    private Alumno alumno;
+    private Materia materia;
     
     public Inscripcion(){
         this.inasistencias = 0;
         this.situacionfinal = new SituacionFinal();
+        this.alumno = alumno;
+        this.materia = materia;
     }
     public void registrarAsistencia(){
         System.out.println ("Asistencia registrada con éxito");
@@ -26,5 +30,11 @@ public class Inscripcion {
     }
     public boolean estaFinalizada(){
         return this.situacionfinal.getEstado() != null;
+    }
+    public Alumno getAlumno(){
+        return this.alumno;
+    }
+    public Materia getMateria(){
+        return this.materia;
     }
 }

@@ -16,7 +16,8 @@ public class SituacionFinal {
         return this.estado;
     }
     
-    public String setEstado(String estadoElegido){
-        return this.estado;
+    public void setEstado(String estadoElegido){
+        this.estado = estadoElegido;
     }
+    
 }
