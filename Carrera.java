@@ -126,7 +126,6 @@ public class Carrera {
         return alumnos;
     }
 
-    @Override
     public String toString() {
         return nombre
                 + " - Duracion: " + duracion + " años"
