@@ -33,7 +33,6 @@ public class Coordinador {
         return dni;
     }
 
-    @Override
     public String toString() {
         return nombre + " " + apellido;
     }
