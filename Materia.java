@@ -39,7 +39,6 @@ public class Materia {
         return profesor;
     }
 
-    @Override
     public String toString() {
         return nombre
                 + " - Curso: " + curso
